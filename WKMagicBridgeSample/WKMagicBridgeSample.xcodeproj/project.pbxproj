@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D30756641D275B05006FABA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30756631D275B05006FABA9 /* AppDelegate.swift */; };
+		D30756661D275B05006FABA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30756651D275B05006FABA9 /* ViewController.swift */; };
+		D30756691D275B05006FABA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30756671D275B05006FABA9 /* Main.storyboard */; };
+		D307566B1D275B05006FABA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D307566A1D275B05006FABA9 /* Assets.xcassets */; };
+		D307566E1D275B05006FABA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D307566C1D275B05006FABA9 /* LaunchScreen.storyboard */; };
+		D30756791D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30756781D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D30756751D275B05006FABA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D30756581D275B05006FABA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D307565F1D275B05006FABA9;
+			remoteInfo = WKMagicBridgeSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D30756601D275B05006FABA9 /* WKMagicBridgeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKMagicBridgeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30756631D275B05006FABA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D30756651D275B05006FABA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D30756681D275B05006FABA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D307566A1D275B05006FABA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D307566D1D275B05006FABA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D307566F1D275B05006FABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30756741D275B05006FABA9 /* WKMagicBridgeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMagicBridgeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D30756781D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKMagicBridgeSampleUITests.swift; sourceTree = "<group>"; };
+		D307567A1D275B05006FABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D307565D1D275B05006FABA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30756711D275B05006FABA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D30756571D275B05006FABA9 = {
+			isa = PBXGroup;
+			children = (
+				D30756621D275B05006FABA9 /* WKMagicBridgeSample */,
+				D30756771D275B05006FABA9 /* WKMagicBridgeSampleUITests */,
+				D30756611D275B05006FABA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D30756611D275B05006FABA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D30756601D275B05006FABA9 /* WKMagicBridgeSample.app */,
+				D30756741D275B05006FABA9 /* WKMagicBridgeSampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D30756621D275B05006FABA9 /* WKMagicBridgeSample */ = {
+			isa = PBXGroup;
+			children = (
+				D30756631D275B05006FABA9 /* AppDelegate.swift */,
+				D30756651D275B05006FABA9 /* ViewController.swift */,
+				D30756671D275B05006FABA9 /* Main.storyboard */,
+				D307566A1D275B05006FABA9 /* Assets.xcassets */,
+				D307566C1D275B05006FABA9 /* LaunchScreen.storyboard */,
+				D307566F1D275B05006FABA9 /* Info.plist */,
+			);
+			path = WKMagicBridgeSample;
+			sourceTree = "<group>";
+		};
+		D30756771D275B05006FABA9 /* WKMagicBridgeSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D30756781D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift */,
+				D307567A1D275B05006FABA9 /* Info.plist */,
+			);
+			path = WKMagicBridgeSampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D307565F1D275B05006FABA9 /* WKMagicBridgeSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D307567D1D275B05006FABA9 /* Build configuration list for PBXNativeTarget "WKMagicBridgeSample" */;
+			buildPhases = (
+				D307565C1D275B05006FABA9 /* Sources */,
+				D307565D1D275B05006FABA9 /* Frameworks */,
+				D307565E1D275B05006FABA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WKMagicBridgeSample;
+			productName = WKMagicBridgeSample;
+			productReference = D30756601D275B05006FABA9 /* WKMagicBridgeSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D30756731D275B05006FABA9 /* WKMagicBridgeSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D30756801D275B05006FABA9 /* Build configuration list for PBXNativeTarget "WKMagicBridgeSampleUITests" */;
+			buildPhases = (
+				D30756701D275B05006FABA9 /* Sources */,
+				D30756711D275B05006FABA9 /* Frameworks */,
+				D30756721D275B05006FABA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D30756761D275B05006FABA9 /* PBXTargetDependency */,
+			);
+			name = WKMagicBridgeSampleUITests;
+			productName = WKMagicBridgeSampleUITests;
+			productReference = D30756741D275B05006FABA9 /* WKMagicBridgeSampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D30756581D275B05006FABA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brian Nicholson";
+				TargetAttributes = {
+					D307565F1D275B05006FABA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					D30756731D275B05006FABA9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = D307565F1D275B05006FABA9;
+					};
+				};
+			};
+			buildConfigurationList = D307565B1D275B05006FABA9 /* Build configuration list for PBXProject "WKMagicBridgeSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D30756571D275B05006FABA9;
+			productRefGroup = D30756611D275B05006FABA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D307565F1D275B05006FABA9 /* WKMagicBridgeSample */,
+				D30756731D275B05006FABA9 /* WKMagicBridgeSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D307565E1D275B05006FABA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D307566E1D275B05006FABA9 /* LaunchScreen.storyboard in Resources */,
+				D307566B1D275B05006FABA9 /* Assets.xcassets in Resources */,
+				D30756691D275B05006FABA9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30756721D275B05006FABA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D307565C1D275B05006FABA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30756661D275B05006FABA9 /* ViewController.swift in Sources */,
+				D30756641D275B05006FABA9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D30756701D275B05006FABA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30756791D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D30756761D275B05006FABA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D307565F1D275B05006FABA9 /* WKMagicBridgeSample */;
+			targetProxy = D30756751D275B05006FABA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D30756671D275B05006FABA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D30756681D275B05006FABA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D307566C1D275B05006FABA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D307566D1D275B05006FABA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D307567B1D275B05006FABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D307567C1D275B05006FABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D307567E1D275B05006FABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKMagicBridgeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebnich.WKMagicBridgeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D307567F1D275B05006FABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WKMagicBridgeSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebnich.WKMagicBridgeSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D30756811D275B05006FABA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WKMagicBridgeSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebnich.WKMagicBridgeSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKMagicBridgeSample;
+			};
+			name = Debug;
+		};
+		D30756821D275B05006FABA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WKMagicBridgeSampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thebnich.WKMagicBridgeSampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WKMagicBridgeSample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D307565B1D275B05006FABA9 /* Build configuration list for PBXProject "WKMagicBridgeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D307567B1D275B05006FABA9 /* Debug */,
+				D307567C1D275B05006FABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D307567D1D275B05006FABA9 /* Build configuration list for PBXNativeTarget "WKMagicBridgeSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D307567E1D275B05006FABA9 /* Debug */,
+				D307567F1D275B05006FABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D30756801D275B05006FABA9 /* Build configuration list for PBXNativeTarget "WKMagicBridgeSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30756811D275B05006FABA9 /* Debug */,
+				D30756821D275B05006FABA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D30756581D275B05006FABA9 /* Project object */;
+}
