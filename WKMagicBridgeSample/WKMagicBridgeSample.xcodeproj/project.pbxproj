@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		D30756641D275B05006FABA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30756631D275B05006FABA9 /* AppDelegate.swift */; };
 		D30756661D275B05006FABA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30756651D275B05006FABA9 /* ViewController.swift */; };
-		D30756691D275B05006FABA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D30756671D275B05006FABA9 /* Main.storyboard */; };
 		D307566B1D275B05006FABA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D307566A1D275B05006FABA9 /* Assets.xcassets */; };
 		D307566E1D275B05006FABA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D307566C1D275B05006FABA9 /* LaunchScreen.storyboard */; };
 		D30756791D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30756781D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift */; };
+		D30756841D276E3F006FABA9 /* Sample.js in Resources */ = {isa = PBXBuildFile; fileRef = D30756831D276E3F006FABA9 /* Sample.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +29,13 @@
 		D30756601D275B05006FABA9 /* WKMagicBridgeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKMagicBridgeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30756631D275B05006FABA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D30756651D275B05006FABA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D30756681D275B05006FABA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D307566A1D275B05006FABA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D307566D1D275B05006FABA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D307566F1D275B05006FABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D30756741D275B05006FABA9 /* WKMagicBridgeSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WKMagicBridgeSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30756781D275B05006FABA9 /* WKMagicBridgeSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKMagicBridgeSampleUITests.swift; sourceTree = "<group>"; };
 		D307567A1D275B05006FABA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D30756831D276E3F006FABA9 /* Sample.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Sample.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +77,12 @@
 		D30756621D275B05006FABA9 /* WKMagicBridgeSample */ = {
 			isa = PBXGroup;
 			children = (
+				D30756831D276E3F006FABA9 /* Sample.js */,
+				D307566F1D275B05006FABA9 /* Info.plist */,
 				D30756631D275B05006FABA9 /* AppDelegate.swift */,
 				D30756651D275B05006FABA9 /* ViewController.swift */,
-				D30756671D275B05006FABA9 /* Main.storyboard */,
 				D307566A1D275B05006FABA9 /* Assets.xcassets */,
 				D307566C1D275B05006FABA9 /* LaunchScreen.storyboard */,
-				D307566F1D275B05006FABA9 /* Info.plist */,
 			);
 			path = WKMagicBridgeSample;
 			sourceTree = "<group>";
@@ -177,9 +177,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30756841D276E3F006FABA9 /* Sample.js in Resources */,
 				D307566E1D275B05006FABA9 /* LaunchScreen.storyboard in Resources */,
 				D307566B1D275B05006FABA9 /* Assets.xcassets in Resources */,
-				D30756691D275B05006FABA9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +221,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D30756671D275B05006FABA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D30756681D275B05006FABA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D307566C1D275B05006FABA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -388,6 +380,7 @@
 				D307567F1D275B05006FABA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D30756801D275B05006FABA9 /* Build configuration list for PBXNativeTarget "WKMagicBridgeSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -396,6 +389,7 @@
 				D30756821D275B05006FABA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

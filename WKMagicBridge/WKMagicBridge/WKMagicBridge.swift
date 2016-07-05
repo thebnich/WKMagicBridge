@@ -210,7 +210,6 @@ public class WKMagicBridge: NSObject, WKScriptMessageHandler {
         message["id"] = responseID
         message["name"] = name
         message["data"] = data ?? NSNull()
-        print("posting: __wkutils__.receiveMessage(\(message))")
 
         guard let JSON = toJSON(message) else { return }
 
